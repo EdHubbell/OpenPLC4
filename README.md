@@ -7,6 +7,6 @@ Errors out on compile.
 
 [5:32:37 PM]: C:\Development\Github\OpenPLC4\openPLC\build\P1AM-100\src\program.st:159-12..159-24: error: invalid expression in ST formal parameter out assignment.
 
-I'm having trouble translating that into an action that I can take to fix.
+Figured out that the issue was that some of the variables were mis-named in the table. Fixed issue, code compiles and runs. Horray!
 
 Note that the version in the root won't open in V4.0.6-beta. But the code in the /openPLC subfolder will.
