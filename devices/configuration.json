@@ -1,0 +1,27 @@
+{
+  "deviceBoard": "P1AM-100",
+  "communicationPort": "COM3",
+  "communicationConfiguration": {
+    "modbusRTU": {
+      "rtuInterface": "Serial",
+      "rtuBaudRate": "115200",
+      "rtuSlaveId": null,
+      "rtuRS485ENPin": null
+    },
+    "modbusTCP": {
+      "tcpInterface": "Ethernet",
+      "tcpMacAddress": "DE:AD:BE:EF:DE:AD",
+      "tcpStaticHostConfiguration": {
+        "ipAddress": "192.168.0.177",
+        "dns": "",
+        "gateway": "255.255.255.0",
+        "subnet": ""
+      }
+    },
+    "communicationPreferences": {
+      "enabledRTU": false,
+      "enabledTCP": true,
+      "enabledDHCP": true
+    }
+  }
+}

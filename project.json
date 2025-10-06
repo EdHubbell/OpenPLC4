@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "name": "LDS-PLC",
+    "type": "plc-project"
+  },
+  "data": {
+    "dataTypes": [],
+    "pous": [
+      {
+        "type": "program",
+        "data": {
+          "language": "st",
+          "name": "main",
+          "variables": [
+            {
+              "id": "cfc3ab63-a6e2-43d4-8e7a-5288a5312cdd",
+              "name": "P_PULSE_1",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%QX1.0",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "5219df46-55fb-4f5b-83e5-3d213d38c356",
+              "name": "P_PULSE_2",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%QX1.1",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "f093c8b8-5e03-47b6-b4e4-1913aa5183ef",
+              "name": "P_PULSE_3",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%QX1.2",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "bbc24de3-fbdc-4ada-86e4-c5e366b07aff",
+              "name": "P_PULSE_4",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%QX1.3",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "b1ca700d-ea8a-4047-8f10-4030ce43afa6",
+              "name": "P_PULSE_5",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%QX1.4",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "048264d3-9b16-4509-93ce-9169df89dc05",
+              "name": "P_PULSE_6",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%QX1.5",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "26bb3d0d-1d8d-4b73-b65c-1451512c57db",
+              "name": "P_PULSE_7",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%QX1.6",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "6b43be00-27d1-41b6-b877-4b349e78d569",
+              "name": "P_PULSE_8",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%QX1.7",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "f6ef6655-247b-4a10-9983-e22ac8d0659d",
+              "name": "SIM1SW1",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX1.0",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "08b26f4b-bbc0-43d4-8b11-4de8048e41d1",
+              "name": "SIM1SW2",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX1.1",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "324c48c0-028d-4c54-828c-7bac286689e2",
+              "name": "SIM1SW3",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX1.2",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "848130ef-21f5-4203-a520-4565a14cc303",
+              "name": "SIM1SW4",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX1.3",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "6c800cb5-d675-45bd-80c7-dc63bff4842d",
+              "name": "SIM1SW5",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX1.4",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "c6527a11-5351-4d5c-8601-59209b7ccf5f",
+              "name": "SIM1SW6",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX1.5",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "13b04429-8bc9-4e26-a566-8d626083fdd9",
+              "name": "SIM1SW7",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX1.6",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "63761fa7-1dda-4307-bff0-2820de54acce",
+              "name": "SIM1SW8",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX1.7",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "57782d9b-803c-4a8e-93dd-0b070b703248",
+              "name": "INPUT_16_1_01",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX2.0",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "9b693869-ad7e-42d2-9711-09064df10725",
+              "name": "INPUT_16_1_2",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX2.1",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "c46d82c3-9953-41d9-adf6-8154ee3b6d0e",
+              "name": "INPUT_16_1_3",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX2.2",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "c6867b6c-148b-4363-bc32-af4bec1535e4",
+              "name": "INPUT_16_1_4",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX2.3",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "26521255-0100-4de8-956f-53c9984c7e39",
+              "name": "INPUT_16_1_5",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX2.4",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "28455947-8517-4c44-aee1-7dacaf8c110a",
+              "name": "INPUT_16_1_6",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX2.5",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "a93b7f80-074a-4cda-ad7b-6661da34c64c",
+              "name": "INPUT_16_1_7",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX2.6",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "a722666e-fab7-42c6-b9ff-af9b53949fe4",
+              "name": "INPUT_16_1_8",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX2.7",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "9d69b4d0-99e4-457b-a6e9-2010ed800a59",
+              "name": "INPUT_16_1_9",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX3.0",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "9b4e544b-9103-4f6d-9ee9-bebe025a3dbf",
+              "name": "INPUT_16_1_10",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX3.1",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "fc31bf25-58bd-4ff4-b564-13ff8838bea7",
+              "name": "INPUT_16_1_11",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX3.2",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "66a97aba-8cd0-40c1-adf8-58610a330477",
+              "name": "INPUT_16_1_12",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX3.3",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "4a2111da-eea6-4554-8646-5691dd372be4",
+              "name": "INPUT_16_1_13",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX3.4",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "c8dec9bf-4a52-4f6c-b05b-112f5dc0821c",
+              "name": "INPUT_16_1_14",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX3.5",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "5b3d6abf-2ec9-4305-8275-00f0d9c7a6f6",
+              "name": "INPUT_16_1_15",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX3.6",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "8f69e0a6-1fd0-4e1d-8f63-8f7270dd1284",
+              "name": "INPUT_16_1_16",
+              "class": "local",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "%IX3.7",
+              "initialValue": "0",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "7126fa84-8986-4a04-88e1-3bbe61436eb1",
+              "name": "kjh",
+              "class": "local",
+              "type": {
+                "definition": "derived",
+                "value": "P1AM_INIT"
+              },
+              "location": "",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "b8ed9376-39be-4a41-9b45-b712dc30bd10",
+              "name": "tee",
+              "class": "local",
+              "type": {
+                "definition": "derived",
+                "value": "P1AM_INIT"
+              },
+              "location": "",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "58b97d3c-c90e-4e99-8e5f-031d4ee58126",
+              "name": "dvxc",
+              "class": "local",
+              "type": {
+                "definition": "derived",
+                "value": "P1_16N"
+              },
+              "location": "",
+              "documentation": "",
+              "debug": false
+            }
+          ],
+          "body": {
+            "language": "st",
+            "value": "(*\r\nThings we've learned:\r\nYou can create variables in text or above. The add feature above is nice, because it'll do Excel like copying and increment the last #.\r\nWe've never gotten the mapping to MODBUS to work from the text UI, so put them in the GUI above. \r\n\r\nKeep in mind that Modbus addresses top out at x.7 and roll over. Like, base 8 or something. Fun. https://autonomylogic.com/docs/2-5-modbus-addressing/\r\n\r\n%QX0.0 here = Coil status address 0 +0 in Radzio Modbus Master Simulator = PLC Address 00001 in C-more\r\n%QX1.0 here = Coil status address 0 +8 in Radzio Modbus Master Simulator = PLC Address 00009 in C-more\r\n\r\n\r\n%IX0.0 here = Input status address 0 +0 in Radzio Modbus Master Simulator = PLC Address 10001 in C-more\r\n\r\nuntested\r\n%QW0.0 here (analog read/write) = Holding registers = 30001?\r\n%IW0.0 here (analog read) = Input registers = 40001?\r\n\r\nThe first 4 input registers are cycling in Radzio. Likely due to some hard coded values for the hardware. \r\nFrom https://autonomylogic.com/docs/2-4-physical-addressing/ \r\n\r\nThere are some hard-coded MODBUS addresses for the hardware. For the current hardware:\r\nProductivity Open P1AM-100\r\n\r\nDigital In\t31, 0, 1, 2, 3, 4\t%IX0.0 – %IX0.5\r\n\r\nDigital Out\t32, 6, 7, 11, 12, 13, 14\t%QX0.0 – %QX0.6\r\n\r\nAnalog In\tA1, A2, A5, A6\t%IW0 – %IW3\r\n\r\nAnalog Out\tA0\t%QW0 – %QW0\r\nMight be good to avoid those. So we moved everything from %?X0.# to %?X1.# \r\n\r\n\r\nAlso not sure why the P1AM LED is cycling along with P_PULSE_1.\r\n\r\n*)\r\n\r\nVAR\r\n    INIT_SUCCESS : BOOL;\r\n    P1AM_INIT0 : P1AM_INIT;\r\n    P1_08TD2_1 : P1_08T;\r\n    P1_16ND3_1: P1_16N; \r\n    P108SIM_1 : P1_08N;\r\n    \r\n    _TMP_GT21_OUT : BOOL;\r\n    fbPulsePump1: fbPulsePump; \r\n    fbPulsePump2: fbPulsePump; \r\nEND_VAR\r\n\r\nP1AM_INIT0(EN := TRUE, INIT := TRUE);\r\n_TMP_GT21_OUT := GT(P1AM_INIT0.SUCCESS, 0);\r\nINIT_SUCCESS := _TMP_GT21_OUT;\r\n\r\n\r\nP1_08TD2_1(\r\n  SLOT := 1, \r\n  O1 := P_PULSE_1,\r\n  O2 := P_PULSE_2,\r\n  O3 := P_PULSE_3,\r\n  O4 := P_PULSE_4,\r\n  O5 := P_PULSE_5,\r\n  O6 := P_PULSE_6,\r\n  O7 := P_PULSE_7,\r\n  O8 := P_PULSE_8);\r\n  \r\n(* This enables the first input module, which is enough to listen to 4 saws (and run 4 pumps). *)\r\n(* We can run 8 pumps using this frame and hardware, but we'll have to buy an additional input module. *)\r\n\r\n(* And then the slot number are going to get all wonky. But maybe we get rid of the simulator card and we'll be good. *)\r\n\r\n\r\nP1_16ND3_1(\r\n\r\n   SLOT := 2,\r\n\r\n   I1 => INPUT_16_1_01,\r\n\r\n   I2 => INPUT_16_1_02,\r\n\r\n   I3 => INPUT_16_1_03,\r\n\r\n   I4 => INPUT_16_1_04,\r\n\r\n   I5 => INPUT_16_1_05,\r\n\r\n   I6 => INPUT_16_1_06,\r\n\r\n   I7 => INPUT_16_1_07,\r\n\r\n   I8 => INPUT_16_1_08,\r\n\r\n   I9 => INPUT_16_1_09,\r\n\r\n   I10 => INPUT_16_1_10,\r\n\r\n   I11 => INPUT_16_1_11,\r\n\r\n   I12 => INPUT_16_1_12,\r\n\r\n   I13 => INPUT_16_1_13,\r\n\r\n   I14 => INPUT_16_1_14,\r\n\r\n   I15 => INPUT_16_1_15,\r\n\r\n   I16 => INPUT_16_1_16);\r\n  \r\n\r\n(* This enables the SIM module so we can activate the pumps easily from the desktop. *)\r\nP108SIM_1(\r\n  SLOT := 3,\r\n  I1 => SIM1SW1,\r\n  I2 => SIM1SW2,\r\n  I3 => SIM1SW3,\r\n  I4 => SIM1SW4, \r\n  I5 => SIM1SW5,\r\n  I6 => SIM1SW6,\r\n  I7 => SIM1SW7,\r\n  I8 => SIM1SW8);\r\n\r\n\r\n\r\n(* Use a function block to run each pump*)\r\nfbPulsePump1(IN_1 := SIM1SW1 OR INPUT_16_1_01, IN_2 := SIM1SW2 OR INPUT_16_1_02, IN_3 := SIM1SW3 OR INPUT_16_1_03, PLC_INIT := INIT_SUCCESS);\r\nP_PULSE_1 := fbPulsePump1.PUMP_PULSE;\r\n\r\n\r\nfbPulsePump2(IN_1 := SIM1SW5 OR INPUT_16_1_05, IN_2 := SIM1SW6 OR INPUT_16_1_06, IN_3 := SIM1SW7 OR INPUT_16_1_07, PLC_INIT := INIT_SUCCESS);\r\nP_PULSE_2 := fbPulsePump2.PUMP_PULSE;\r\n"
+          },
+          "documentation": ""
+        }
+      },
+      {
+        "type": "function-block",
+        "data": {
+          "language": "st",
+          "name": "fbPulsePump",
+          "variables": [
+            {
+              "id": "3f0f9a23-340e-457b-b911-89e0e5b285d0",
+              "name": "IN_1",
+              "class": "input",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "b9073c0c-a67c-46eb-80a8-4df1e7de4979",
+              "name": "IN_2",
+              "class": "input",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "cc7d19c6-90b7-4802-a409-0a64dacd47fb",
+              "name": "IN_3",
+              "class": "input",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "fd2f282e-7674-43b0-9d7a-14f028d25d23",
+              "name": "PLC_INIT",
+              "class": "input",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "",
+              "documentation": "",
+              "debug": false
+            },
+            {
+              "id": "c7b2bd05-baa4-4f60-8e4d-8d30bd398290",
+              "name": "PUMP_PULSE",
+              "class": "output",
+              "type": {
+                "definition": "base-type",
+                "value": "bool"
+              },
+              "location": "",
+              "documentation": "",
+              "debug": false
+            }
+          ],
+          "body": {
+            "language": "st",
+            "value": "\r\nVAR\r\n(*Some timers with limited scope *)\r\n    TON0 : TON;\r\n    TOF0 : TOF;\r\nEND_VAR\r\n\r\n\r\n\r\n(*If all three signals from the dicing saw are true, turn on the pump *)\r\nIF (IN_1 AND IN_2 AND IN_3) THEN\r\n\r\n  TON0(IN := NOT(PUMP_PULSE) AND PLC_INIT, PT := T#100ms);  \r\n\r\n  TOF0(IN := TON0.Q, PT := T#300ms);\r\n\r\n  PUMP_PULSE := TOF0.Q;    \r\n\r\nELSE\r\n\r\n  PUMP_PULSE := FALSE;\r\n\r\nEND_IF;\r\n\r\n\r\n\r\n\r\n"
+          },
+          "documentation": ""
+        }
+      }
+    ],
+    "configuration": {
+      "resource": {
+        "tasks": [
+          {
+            "id": "0",
+            "name": "task0",
+            "triggering": "Cyclic",
+            "interval": "T#20ms",
+            "priority": 1
+          }
+        ],
+        "instances": [
+          {
+            "id": "0",
+            "name": "instance0",
+            "task": "task0",
+            "program": "main"
+          }
+        ],
+        "globalVariables": []
+      }
+    }
+  }
+}
