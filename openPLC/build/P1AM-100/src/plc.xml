@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://www.plcopen.org/xml/tc6_0201" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ns1="http://www.plcopen.org/xml/tc6_0201">
-  <fileHeader companyName="Unknown" productName="Unnamed" productVersion="1" creationDateTime="2025-10-06T17:32:35"/>
-  <contentHeader name="Unnamed" modificationDateTime="2025-10-06T17:32:35">
+  <fileHeader companyName="Unknown" productName="Unnamed" productVersion="1" creationDateTime="2025-10-06T18:58:03"/>
+  <contentHeader name="Unnamed" modificationDateTime="2025-10-06T18:58:03">
     <coordinateInfo>
       <fbd>
         <scaling x="16" y="16"/>
@@ -156,7 +156,7 @@
                 <simpleValue value="0"/>
               </initialValue>
             </variable>
-            <variable name="INPUT_16_1_2" address="%IX2.1">
+            <variable name="INPUT_16_1_02" address="%IX2.1">
               <type>
                 <BOOL/>
               </type>
@@ -164,7 +164,7 @@
                 <simpleValue value="0"/>
               </initialValue>
             </variable>
-            <variable name="INPUT_16_1_3" address="%IX2.2">
+            <variable name="INPUT_16_1_03" address="%IX2.2">
               <type>
                 <BOOL/>
               </type>
@@ -172,7 +172,7 @@
                 <simpleValue value="0"/>
               </initialValue>
             </variable>
-            <variable name="INPUT_16_1_4" address="%IX2.3">
+            <variable name="INPUT_16_1_04" address="%IX2.3">
               <type>
                 <BOOL/>
               </type>
@@ -180,7 +180,7 @@
                 <simpleValue value="0"/>
               </initialValue>
             </variable>
-            <variable name="INPUT_16_1_5" address="%IX2.4">
+            <variable name="INPUT_16_1_05" address="%IX2.4">
               <type>
                 <BOOL/>
               </type>
@@ -188,7 +188,7 @@
                 <simpleValue value="0"/>
               </initialValue>
             </variable>
-            <variable name="INPUT_16_1_6" address="%IX2.5">
+            <variable name="INPUT_16_1_06" address="%IX2.5">
               <type>
                 <BOOL/>
               </type>
@@ -196,7 +196,7 @@
                 <simpleValue value="0"/>
               </initialValue>
             </variable>
-            <variable name="INPUT_16_1_7" address="%IX2.6">
+            <variable name="INPUT_16_1_07" address="%IX2.6">
               <type>
                 <BOOL/>
               </type>
@@ -204,7 +204,7 @@
                 <simpleValue value="0"/>
               </initialValue>
             </variable>
-            <variable name="INPUT_16_1_8" address="%IX2.7">
+            <variable name="INPUT_16_1_08" address="%IX2.7">
               <type>
                 <BOOL/>
               </type>
@@ -212,7 +212,7 @@
                 <simpleValue value="0"/>
               </initialValue>
             </variable>
-            <variable name="INPUT_16_1_9" address="%IX3.0">
+            <variable name="INPUT_16_1_09" address="%IX3.0">
               <type>
                 <BOOL/>
               </type>
@@ -276,26 +276,14 @@
                 <simpleValue value="0"/>
               </initialValue>
             </variable>
-            <variable name="kjh">
-              <type>
-                <derived name="P1AM_INIT"/>
-              </type>
-            </variable>
-            <variable name="tee">
-              <type>
-                <derived name="P1AM_INIT"/>
-              </type>
-            </variable>
-            <variable name="dvxc">
-              <type>
-                <derived name="P1_16N"/>
-              </type>
-            </variable>
           </localVars>
         </interface>
         <body>
           <ST>
-            <xhtml:p><![CDATA[(*
+            <xhtml:p><![CDATA[
+
+
+(*
 Things we've learned:
 You can create variables in text or above. The add feature above is nice, because it'll do Excel like copying and increment the last #.
 We've never gotten the mapping to MODBUS to work from the text UI, so put them in the GUI above. 
@@ -466,6 +454,8 @@ P_PULSE_2 := fbPulsePump2.PUMP_PULSE;
         <body>
           <ST>
             <xhtml:p><![CDATA[
+
+
 VAR
 (*Some timers with limited scope *)
     TON0 : TON;
